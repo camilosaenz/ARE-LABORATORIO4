@@ -46,8 +46,8 @@ public class HTTPConexion {
 	
 	/**
 	 * Este metodo utiliza una url como recurso para app web
-	 * @param recurso
-	 * @return recurso
+	 * @param recurso recurso
+	 * @return recurso recurso
 	 */
 	public boolean recurso(String recurso) {
 		return url.containsKey(recurso);

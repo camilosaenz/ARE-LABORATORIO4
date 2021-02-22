@@ -9,7 +9,7 @@ public class WebJS {
 	
 	/**
 	 * Muestra js en app web, thanks.html
-	 * @return
+	 * @return un js en la app web
 	 */
     @Web("/thanks.html")
     public static String returnHtmlWithJS(){

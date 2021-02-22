@@ -9,7 +9,7 @@ public class WebImagen {
 	
 	/**
 	 * Utiliza la imagen stormtrooper.png para mostrar en pagina de app web
-	 * @return
+	 * @return retorna imagen en HD de app web
 	 */
     @Web("/stormtrooper.html")
     public static String imagen() {
